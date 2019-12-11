@@ -49,7 +49,7 @@ public class AddSurfBoardScene extends Scene {
 
     public AddSurfBoardScene(Scene prevScene)
     {
-        super(new GridPane(), 450, 750);
+        super(new GridPane(), 400, 300);
         mPrevScene = prevScene;
 
         GridPane pane = new GridPane();
@@ -72,17 +72,17 @@ public class AddSurfBoardScene extends Scene {
         pane.add(new Label("Description:"), 0, 2);
         pane.add(descriptionTF, 1, 2);
 
-        pane.add(new Label("Length:"), 0, 3);
+        pane.add(new Label("Length (in inches):"), 0, 3);
         pane.add(lengthTF, 1, 3);
 
-        pane.add(new Label("Width:"), 0, 4);
-        pane.add(lengthTF, 1, 4);
+        pane.add(new Label("Width (in inches):"), 0, 4);
+        pane.add(widthTF, 1, 4);
 
-        pane.add(new Label("Thickness:"), 0, 5);
-        pane.add(lengthTF, 1, 5);
+        pane.add(new Label("Thickness (in inches):"), 0, 5);
+        pane.add(thicknessTF, 1, 5);
 
-        pane.add(new Label("Volume:"), 0, 6);
-        pane.add(lengthTF, 1, 6);
+        pane.add(new Label("Volume (in cubic liters):"), 0, 6);
+        pane.add(volumeTF, 1, 6);
 
        // EPOXY SELECTION...TRUE/FALSE ROW 7
         pane.add(new Label("Epoxy:"), 0, 7);
@@ -90,10 +90,10 @@ public class AddSurfBoardScene extends Scene {
 
 
         pane.add(new Label("Price:"), 0, 8);
-        pane.add(nameTF, 1, 8);
-        pane.add(nameLabel, 2, 8);
-        nameLabel.setTextFill(Color.RED);
-        nameLabel.setVisible(false);
+        pane.add(priceTF, 1, 8);
+        pane.add(priceLabel, 2, 8);
+        priceLabel.setTextFill(Color.RED);
+        priceLabel.setVisible(false);
 
         pane.add(cancelButton, 0, 9);
         pane.add(saveButton, 1, 9);
@@ -118,6 +118,8 @@ public class AddSurfBoardScene extends Scene {
 
         description = descriptionTF.getText();
         // if we want description mandatory...descriptionTF.setVisible(name.isEmpty());
+
+        epoxy = epoxyCB.isSelected();
 
         try {
             price = Double.parseDouble(priceTF.getText());

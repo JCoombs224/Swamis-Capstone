@@ -46,7 +46,7 @@ public class AddBodyBoardScene extends Scene {
 
     public AddBodyBoardScene(Scene prevScene)
     {
-        super(new GridPane(), 450, 750);
+        super(new GridPane(), 300, 300);
         mPrevScene = prevScene;
 
         GridPane pane = new GridPane();
@@ -84,8 +84,8 @@ public class AddBodyBoardScene extends Scene {
         pane.add(new Label("Price:"), 0, 7);
         pane.add(priceTF, 1, 7);
         pane.add(priceLabel, 2, 7);
-        nameLabel.setTextFill(Color.RED);
-        nameLabel.setVisible(false);
+        priceLabel.setTextFill(Color.RED);
+        priceLabel.setVisible(false);
 
         pane.add(cancelButton, 0, 8);
         pane.add(saveButton, 1, 8);

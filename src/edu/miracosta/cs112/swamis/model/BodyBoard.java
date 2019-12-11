@@ -10,7 +10,7 @@ public class BodyBoard extends OceanBoards implements Serializable {
     private String mColor;
     private static long SerialVersionUID = 12022019L;
 
-    public BodyBoard(String name, String description, String brand, double price, double length, String core, String tailShape, String color) {
+    public BodyBoard(String name, String description, String brand, double length, double price, String core, String tailShape, String color) {
         super(name, description, brand, length, price);
         mCore = core;
         mTailShape = tailShape;
@@ -66,8 +66,8 @@ public class BodyBoard extends OceanBoards implements Serializable {
                 ", Description = " + mDescription +
                 ", Brand = " + mBrand +
                 ", Length = " + mLength + " inches" +
-                ",  " + mTailShape +
-                ", " + mCore +
+                ",  " + mTailShape + " Tail Shape" +
+                ", " + mCore + " Core" +
                 ", Color = " + mColor +
                 ", Price = " + currency.format(mPrice) +
                 ']';

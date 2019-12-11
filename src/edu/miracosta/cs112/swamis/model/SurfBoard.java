@@ -12,7 +12,7 @@ public class SurfBoard extends OceanBoards implements Serializable {
     private static long SerialVersionUID = 12022019L;
     NumberFormat currency = NumberFormat.getCurrencyInstance();
 
-    public SurfBoard(String name, String description, String brand, double price, double length, double width, double thickness, double volume, boolean epoxy) {
+    public SurfBoard(String name, String description, String brand, double length, double price, double width, double thickness, double volume, boolean epoxy) {
         super(name, description, brand, length, price);
         mWidth = width;
         mThickness = thickness;

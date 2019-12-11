@@ -6,7 +6,6 @@ public abstract class Clothing extends Item {
 
     protected int mSex;
 
-
     public int getSex() {
         return mSex;
     }
