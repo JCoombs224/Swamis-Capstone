@@ -46,7 +46,7 @@ public class AddBodyBoardScene extends Scene {
 
     public AddBodyBoardScene(Scene prevScene)
     {
-        super(new GridPane(), 300, 300);
+        super(new GridPane(), 350, 300);
         mPrevScene = prevScene;
 
         GridPane pane = new GridPane();

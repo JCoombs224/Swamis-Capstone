@@ -19,12 +19,11 @@ public class Controller {
          */
         public static edu.miracosta.cs112.swamis.controller.Controller getInstance() {
             if (theInstance == null) {
-                theInstance = new edu.miracosta.cs112.swamis.controller.Controller();
-                // TODO: If the binary file has data, populate the mAllBurritosList from the binary file
+                theInstance = new Controller();
+                // TODO: If the binary file has data, populate the mAllBoardsList from the binary file
                 if (Model.binaryFileHasData())
                     theInstance.mAllOceanBoardsList = Model.populateListFromBinaryFile();
-
-
+                else
                 theInstance.mAllOceanBoardsList = FXCollections.observableArrayList();
             }
             return theInstance;
