@@ -36,8 +36,8 @@ public class ChooseClothingScene extends Scene {
         pane.add(cancelButton, 0, 6);
 
         topsButton.setOnAction(event -> goTopScene());
-        //bottomsButton.setOnAction(event -> );
-        //accessoryButton.setOnAction(event -> );
+        bottomsButton.setOnAction(event -> goBottomsScene());
+        accessoryButton.setOnAction(event -> goAccessoryScene());
 
         cancelButton.setOnAction(event -> goBackToPrevScene());
 
@@ -48,7 +48,16 @@ public class ChooseClothingScene extends Scene {
         ViewNavigator.loadScene("Add a new top", new AddTopScene());
     }
 
+    private void goBottomsScene() {
+        ViewNavigator.loadScene("Add a new pair of bottoms", new AddBottomsScene());
+    }
+
+    private void goAccessoryScene() {
+        ViewNavigator.loadScene("Add a new Accessory", new AddAccessoryScene());
+    }
+
     private void goBackToPrevScene() {
         ViewNavigator.loadScene("Swami's Shopping Cart", mPrevScene);
     }
+
 }

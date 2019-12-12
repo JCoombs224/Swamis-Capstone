@@ -133,7 +133,7 @@ public class AddBodyBoardScene extends Scene {
             return;
 
         BodyBoard b = new BodyBoard(name, description, brand, length, price, core, tailShape, color);
-        controller.getAllBoards().add(b);
+        controller.getAllItemsList().add(b);
         goBackToPrevScene();
     }
 
