@@ -1,5 +1,7 @@
-package edu.miracosta.cs112.swamis;
+package edu.miracosta.cs112.swamis.view;
 
+import edu.miracosta.cs112.swamis.controller.Controller;
+import edu.miracosta.cs112.swamis.model.Cruiser;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
@@ -13,7 +15,6 @@ public class AddCruiserScene extends Scene {
     private Scene mPrevScene;
 
     private Controller controller = Controller.getInstance();
-    private ObservableList<SkateBoards> allSkateBoardsList;
 
     private TextField trucksTF = new TextField();
     private Label trucksLabel = new Label("Truck Brand: ");
@@ -113,8 +114,8 @@ public class AddCruiserScene extends Scene {
         catch (NumberFormatException e) { }
 
 
-        Trick t = new Trick(trucks, wheels, price, deckSize, material, truckSize);
-        controller.getAllBoards().add(t);
+        Cruiser t = new Cruiser(trucks, wheels, price, deckSize, material, truckSize);
+        controller.getAllItemsList().add(t);
         goBackToPrevScene();
     }
 

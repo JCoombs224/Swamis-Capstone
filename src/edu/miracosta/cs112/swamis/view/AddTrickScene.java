@@ -1,5 +1,7 @@
-package edu.miracosta.cs112.swamis;
+package edu.miracosta.cs112.swamis.view;
 
+import edu.miracosta.cs112.swamis.controller.Controller;
+import edu.miracosta.cs112.swamis.model.Trick;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
@@ -13,7 +15,6 @@ public class AddTrickScene extends Scene {
     private Scene mPrevScene;
 
     private Controller controller = Controller.getInstance();
-    private ObservableList<SkateBoards> allSkateBoardsList;
 
     private TextField trucksTF = new TextField();
     private Label trucksLabel = new Label("Truck Brand: ");
@@ -114,7 +115,7 @@ public class AddTrickScene extends Scene {
 
 
         Trick t = new Trick(trucks, wheels, price, deckSize, brand, wheelSize);
-        controller.getAllBoards().add(t);
+        controller.getAllItemsList().add(t);
         goBackToPrevScene();
     }
 
