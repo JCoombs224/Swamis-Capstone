@@ -2,7 +2,7 @@ package edu.miracosta.cs112.swamis.view;
 
 import edu.miracosta.cs112.swamis.controller.Controller;
 import edu.miracosta.cs112.swamis.model.Cruiser;
-import javafx.collections.ObservableList;
+import javafx.collections.ObservableList;`
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -114,8 +114,8 @@ public class AddCruiserScene extends Scene {
         catch (NumberFormatException e) { }
 
 
-        Cruiser t = new Cruiser(trucks, wheels, price, deckSize, material, truckSize);
-        controller.getAllItemsList().add(t);
+        Cruiser c = new Cruiser(trucks, wheels, price, deckSize, material, truckSize);
+        controller.getAllItemsList().add(c);
         goBackToPrevScene();
     }
 

@@ -1,7 +1,9 @@
 package edu.miracosta.cs112.swamis.view;
 
 import edu.miracosta.cs112.swamis.controller.Controller;
+import edu.miracosta.cs112.swamis.model.SkateBoards;
 import edu.miracosta.cs112.swamis.model.Trick;
+import edu.miracosta.cs112.swamis.view.ViewNavigator;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;

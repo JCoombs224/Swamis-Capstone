@@ -1,12 +1,12 @@
 package edu.miracosta.cs112.swamis.model;
 
 import java.io.Serializable;
+import java.text.NumberFormat;
 import java.util.Objects;
 
 public class Cruiser extends SkateBoards implements Serializable, Comparable {
     private String mMaterial;
     private int mTruckSize;
-
 
     /** Constructor of the Cruiser class
      * Using inheritance by pulling fields from the abstract parent class, Skateboards.
@@ -17,7 +17,7 @@ public class Cruiser extends SkateBoards implements Serializable, Comparable {
      * @param material
      * @param truckSize
      */
-    public Cruiser(String trucks, String wheels, double price, double deckSize, String material, int truckSize) {
+    public Cruiser(String trucks, String wheels, double price, int deckSize, String material, int truckSize) {
         super(trucks, wheels, price, deckSize);
         mMaterial = material;
         mTruckSize = truckSize;
@@ -44,7 +44,11 @@ public class Cruiser extends SkateBoards implements Serializable, Comparable {
 
     @Override
     public String toString() {
-        return "Cruiser Board";
+        NumberFormat dollarSign = NumberFormat.getCurrencyInstance();
+        return "Cruiser[Trucks: " + mTrucks + ", Wheels: " + mWheels + ", Price"
+                + dollarSign.format(mPrice) + ", Deck Size: " + mDeckSize
+                + ", Material: " + mMaterial + ", Truck Size :" + mTruckSize + "]";
+
     }
 
     @Override
