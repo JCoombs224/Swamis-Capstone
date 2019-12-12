@@ -1,8 +1,8 @@
-package edu.miracosta.cs112.swamis;
+package edu.miracosta.cs112.swamis.model;
 
 import java.io.Serializable;
 
-public abstract class SkateBoards implements Serializable {
+public abstract class SkateBoards extends Item implements Serializable {
     protected String mTrucks, mWheels;
     protected double mPrice, mDeckSize;
 
