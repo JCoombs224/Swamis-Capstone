@@ -16,13 +16,14 @@ import javafx.scene.layout.GridPane;
 
 public class MainScene extends Scene {
 // TODO J UNIT TESTS!
-    public static final int HEIGHT = 500;
+    public static final int HEIGHT = 600;
     public static final int WIDTH = 750;
 
     private ImageView swamisIV = new ImageView(); // to use images in application
 
     private Button addSurfBoardButton = new Button("+ Add SurfBoard");
     private Button addBodyBoardButton = new Button("+ Add BodyBoard");
+    private Button addClothingButton = new Button("+ Add Clothing");
 
     private ListView<Item> itemLV = new ListView<>();
 
@@ -53,6 +54,7 @@ public class MainScene extends Scene {
 
         addBodyBoardButton.setOnAction(event -> addBodyBoard());
         addSurfBoardButton.setOnAction(event -> addSurfBoard());
+        addClothingButton.setOnAction(event -> addClothing());
         removeButton.setOnAction(event -> removeItem());
 
         GridPane pane = new GridPane();
@@ -65,19 +67,16 @@ public class MainScene extends Scene {
         pane.setPadding(new Insets(5));
         pane.add(swamisIV, 0, 0, 3, 1);
 
-        boardsLV.setPrefWidth(WIDTH);
-        boardsLV.setPrefHeight(HEIGHT/5.0);
-        pane.add(boardsLV, 0, 7, 3, 1); // TODO Format columns and rows accordingly for this!!
+        itemLV.setPrefWidth(WIDTH);
+        itemLV.setPrefHeight(200);
+
 
         pane.add(addBodyBoardButton, 0, 6);
         pane.add(addSurfBoardButton, 1, 6);
-        pane.add(removeButton, 0, 8);
+        pane.add(addClothingButton, 2, 6);
+        pane.add(removeButton, 0, 9);
         itemLV.setPrefWidth(WIDTH);
         pane.add(itemLV, 0, 8, 3, 1); // TODO Format columns and rows accordingly for this!!
-        pane.add(addBodyBoardButton, 0, 5);
-        pane.add(addSurfBoardButton, 1, 5);
-        pane.add(addClothingButton, 2, 5);
-        pane.add(removeButton, 0, 20);
 
         setRoot(pane);
     }
@@ -109,6 +108,13 @@ public class MainScene extends Scene {
         // Update the display when done.
         updateDisplay();
     }
+
+    private void addClothing()
+    {
+        ViewNavigator.loadScene("Please select type of clothing", new ChooseClothingScene(this));
+        updateDisplay();
+    }
+
 
     private void updateDisplay()
     {
