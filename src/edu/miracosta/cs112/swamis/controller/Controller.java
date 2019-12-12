@@ -21,7 +21,7 @@ public class Controller {
         public static Controller getInstance() {
             if (theInstance == null) {
                 theInstance = new Controller();
-                // TODO: If the binary file has data, populate the mAllBurritosList from the binary file
+
                 if (Model.binaryFileHasData())
                     theInstance.mAllItemsList = Model.populateListFromBinaryFile();
 

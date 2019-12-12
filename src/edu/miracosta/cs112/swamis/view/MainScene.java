@@ -15,7 +15,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 
 public class MainScene extends Scene {
-// TODO J UNIT TESTS!
+
     public static final int HEIGHT = 600;
     public static final int WIDTH = 750;
 
@@ -24,6 +24,8 @@ public class MainScene extends Scene {
     private Button addSurfBoardButton = new Button("+ Add SurfBoard");
     private Button addBodyBoardButton = new Button("+ Add BodyBoard");
     private Button addClothingButton = new Button("+ Add Clothing");
+    private Button addCruiserButton = new Button("+ Add Cruiser Skateboard");
+    private Button addTrickButton = new Button("+ Add Trick SkateBoard");
 
     private ListView<Item> itemLV = new ListView<>();
 
@@ -55,6 +57,8 @@ public class MainScene extends Scene {
         addBodyBoardButton.setOnAction(event -> addBodyBoard());
         addSurfBoardButton.setOnAction(event -> addSurfBoard());
         addClothingButton.setOnAction(event -> addClothing());
+        addCruiserButton.setOnAction(event -> addCruiser());
+        addTrickButton.setOnAction(event -> addTrick());
         removeButton.setOnAction(event -> removeItem());
 
         GridPane pane = new GridPane();
@@ -73,18 +77,17 @@ public class MainScene extends Scene {
 
         pane.add(addBodyBoardButton, 0, 6);
         pane.add(addSurfBoardButton, 1, 6);
-        pane.add(addClothingButton, 2, 6);
-        pane.add(removeButton, 0, 9);
-        itemLV.setPrefWidth(WIDTH);
-        pane.add(itemLV, 0, 8, 3, 1); // TODO Format columns and rows accordingly for this!!
+        pane.add(addCruiserButton,2,6);
+        pane.add(addTrickButton,3,6);
+        pane.add(addClothingButton, 4, 6);
+        pane.add(removeButton, 4, 9);
+
+        pane.add(itemLV, 0, 8, 6, 1); // TODO Format columns and rows accordingly for this!!
 
         setRoot(pane);
     }
 
     private void removeItem() {
-        //TODO: If the selected item is null, return
-        //TODO: Otherwise, remove the selected item from the list
-        //TODO: Update the display when done
 
         if (selectedItem == null)
             return;
@@ -112,6 +115,16 @@ public class MainScene extends Scene {
     private void addClothing()
     {
         ViewNavigator.loadScene("Please select type of clothing", new ChooseClothingScene(this));
+        updateDisplay();
+    }
+
+    private void addCruiser() {
+        ViewNavigator.loadScene("Add a Cruiser Skateboard", new AddCruiserScene(this));
+        updateDisplay();
+    }
+
+    private void addTrick() {
+        ViewNavigator.loadScene("Add a trick Skateboard", new AddTrickScene(this));
         updateDisplay();
     }
 

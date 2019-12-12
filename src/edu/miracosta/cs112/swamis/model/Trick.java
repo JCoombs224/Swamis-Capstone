@@ -1,6 +1,9 @@
-package edu.miracosta.cs112.swamis;
+package edu.miracosta.cs112.swamis.model;
+
+import edu.miracosta.cs112.swamis.model.Item;
 
 import java.io.Serializable;
+import java.text.NumberFormat;
 import java.util.Objects;
 
 public class Trick extends SkateBoards implements Serializable, Comparable {
@@ -16,7 +19,7 @@ public class Trick extends SkateBoards implements Serializable, Comparable {
      * @param brand
      * @param wheelSize
      */
-    public Trick(String trucks, String wheels, double price, double deckSize, String brand, int wheelSize) {
+    public Trick(String trucks, String wheels, double price, int deckSize, String brand, int wheelSize) {
         super(trucks, wheels, price, deckSize);
         mBrand = brand;
         mWheelSize = wheelSize;
@@ -43,7 +46,10 @@ public class Trick extends SkateBoards implements Serializable, Comparable {
 
     @Override
     public String toString() {
-        return "Trick Board";
+        NumberFormat dollarSign = NumberFormat.getCurrencyInstance();
+        return "Trick[Trucks: " + mTrucks + ", Wheels: " + mWheels + ", Price: "
+                + dollarSign.format(mPrice) + ", Deck Size: " + mDeckSize + ", Brand: " + mBrand
+                + ", Wheel Size: " + mWheelSize + "]";
     }
 
     @Override
