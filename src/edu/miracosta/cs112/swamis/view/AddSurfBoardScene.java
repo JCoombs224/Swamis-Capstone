@@ -152,7 +152,7 @@ public class AddSurfBoardScene extends Scene {
             return;
 
         SurfBoard s = new SurfBoard(name, description, brand, length,price,width,thickness,volume,epoxy);
-        controller.getAllBoards().add(s);
+        controller.getAllItemsList().add(s);
         goBackToPrevScene();
     }
 

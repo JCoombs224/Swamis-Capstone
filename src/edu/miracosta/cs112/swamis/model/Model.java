@@ -27,9 +27,9 @@ public class Model {
      * other than the very first time, since it needs initial data from CSV.
      * @return The list of all OceanBoards populated from the binary file
      */
-    public static ObservableList<OceanBoards> populateListFromBinaryFile()
+    public static ObservableList<Item> populateListFromBinaryFile()
     {
-        ObservableList<OceanBoards> allOceanBoards = FXCollections.observableArrayList();
+        ObservableList<Item> allItems = FXCollections.observableArrayList();
         // Create a File reference to the binary file
         File binaryFile = new File(BINARY_FILE);
         // Check to see if the binary file exists
@@ -38,7 +38,7 @@ public class Model {
                 ObjectInputStream fileReader = new ObjectInputStream(new FileInputStream(binaryFile));
                 // Read into temp array
                 OceanBoards[] tempArray = (OceanBoards[]) fileReader.readObject();
-                allOceanBoards.addAll(tempArray);
+                allItems.addAll(tempArray);
                 fileReader.close();
             }
             catch (Exception e)
@@ -48,7 +48,7 @@ public class Model {
 
         }
 
-        return allOceanBoards;
+        return allItems;
     }
 
     /**
@@ -57,7 +57,7 @@ public class Model {
      * during the stop() method.
      * @return True if the data were saved to the binary file successfully, false otherwise.
      */
-    public static boolean writeDataToBinaryFile(ObservableList<OceanBoards> allOceanBoardsList)
+    public static boolean writeDataToBinaryFile(ObservableList<Item> allItemsList)
     {
         // Create a File reference to the binary file
         File binaryFile = new File(BINARY_FILE);
@@ -65,9 +65,9 @@ public class Model {
         try {
             ObjectOutputStream fileWriter = new ObjectOutputStream(new FileOutputStream(binaryFile));
 
-            OceanBoards[] tempArray = new OceanBoards[allOceanBoardsList.size()]; // make array same size as list!
+            Item[] tempArray = new Item[allItemsList.size()]; // make array same size as list!
             for (int i = 0; i < tempArray.length; i++)
-                tempArray[i] = allOceanBoardsList.get(i);
+                tempArray[i] = allItemsList.get(i);
 
             fileWriter.writeObject(tempArray);
 

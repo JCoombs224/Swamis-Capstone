@@ -61,6 +61,10 @@ public class Bottoms extends Clothing {
                 price = 29.99;
                 typeString = "Board-Shorts";
                 break;
+            case 2:
+                price = 44.99;
+                typeString = "Wome's Bathing Suit";
+                break;
                 default:
                     System.err.println("Bottoms type error");
                     break;
@@ -79,7 +83,7 @@ public class Bottoms extends Clothing {
                 ']';
     }
 
-    public Bottoms(int sex, int type, String size) {
+    public Bottoms(String sex, int type, String size) {
         super(sex);
         mPrice = calculateBottomsCost();
         mType = type;

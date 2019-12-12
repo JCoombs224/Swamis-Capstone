@@ -79,7 +79,7 @@ public class Accessory extends Clothing {
                 ']';
     }
 
-    public Accessory(int sex, int type) {
+    public Accessory(String sex, int type) {
         super(sex);
         mPrice = calculateAccessoryCost();
         mType = type;

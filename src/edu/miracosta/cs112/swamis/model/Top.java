@@ -81,7 +81,7 @@ public class Top extends Clothing {
                 ']';
     }
 
-    public Top(int sex, int type, String size, String color) {
+    public Top(String sex, int type, String size, String color) {
         super(sex);
         mPrice = calculateTopCost();
         mType = type;

@@ -1,6 +1,7 @@
 package edu.miracosta.cs112.swamis.view;
 
 import edu.miracosta.cs112.swamis.controller.Controller;
+import edu.miracosta.cs112.swamis.model.Item;
 import edu.miracosta.cs112.swamis.model.OceanBoards;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
@@ -23,25 +24,25 @@ public class MainScene extends Scene {
     private Button addSurfBoardButton = new Button("+ Add SurfBoard");
     private Button addBodyBoardButton = new Button("+ Add BodyBoard");
 
-    private ListView<OceanBoards> boardsLV = new ListView<>();
+    private ListView<Item> itemLV = new ListView<>();
 
     private Button removeButton = new Button("Remove From Shopping Cart");
 
     private Controller controller = Controller.getInstance();
-    private ObservableList<OceanBoards> oceanBoardList;
-    private OceanBoards selectedItem;
+    private ObservableList<Item> itemList;
+    private Item selectedItem;
 
     public MainScene()
     {
         super(new GridPane(), WIDTH, HEIGHT);
 
-        oceanBoardList = controller.getAllBoards();
-        boardsLV.setItems(oceanBoardList);
-        boardsLV.setPrefWidth(750);
+        itemList = controller.getAllItemsList();
+        itemLV.setItems(itemList);
+        itemLV.setPrefWidth(750);
 
-        boardsLV.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<OceanBoards>() {
+        itemLV.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Item>() {
             @Override
-            public void changed(ObservableValue<? extends OceanBoards> observable, OceanBoards oldValue, OceanBoards newValue) {
+            public void changed(ObservableValue<? extends Item> observable, Item oldValue, Item newValue) {
                 removeButton.setDisable(true);
                 if (newValue != null) {
                     selectedItem = newValue;
@@ -71,6 +72,12 @@ public class MainScene extends Scene {
         pane.add(addBodyBoardButton, 0, 6);
         pane.add(addSurfBoardButton, 1, 6);
         pane.add(removeButton, 0, 8);
+        itemLV.setPrefWidth(WIDTH);
+        pane.add(itemLV, 0, 8, 3, 1); // TODO Format columns and rows accordingly for this!!
+        pane.add(addBodyBoardButton, 0, 5);
+        pane.add(addSurfBoardButton, 1, 5);
+        pane.add(addClothingButton, 2, 5);
+        pane.add(removeButton, 0, 20);
 
         setRoot(pane);
     }
@@ -83,7 +90,7 @@ public class MainScene extends Scene {
         if (selectedItem == null)
             return;
 
-        oceanBoardList.remove(selectedItem);
+        itemList.remove(selectedItem);
         updateDisplay();
     }
 
@@ -105,7 +112,7 @@ public class MainScene extends Scene {
 
     private void updateDisplay()
     {
-        boardsLV.refresh();
+        itemLV.refresh();
     }
 
 }
