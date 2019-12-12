@@ -8,7 +8,7 @@ import javafx.collections.ObservableList;
 
 public class Controller {
 
-        private static edu.miracosta.cs112.swamis.controller.Controller theInstance;
+        private static Controller theInstance;
         private ObservableList<Item> mAllItemsList;
         private ObservableList<Item> mFilteredList;
 
@@ -24,9 +24,8 @@ public class Controller {
                 // TODO: If the binary file has data, populate the mAllBurritosList from the binary file
                 if (Model.binaryFileHasData())
                     theInstance.mAllItemsList = Model.populateListFromBinaryFile();
-
-
-                theInstance.mAllItemsList = FXCollections.observableArrayList();
+                else
+                    theInstance.mAllItemsList = FXCollections.observableArrayList();
             }
             return theInstance;
         }

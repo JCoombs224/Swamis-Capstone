@@ -19,7 +19,7 @@ public class Model {
         // TODO: Create a File reference to the binary file
         File binaryFile = new File(BINARY_FILE);
         // TODO: Return whether the binary file exists and has data
-        return (binaryFile.exists() && binaryFile.length() > 0); //  .length tells file size. If > 0, file has some data
+        return (binaryFile.exists() && binaryFile.length() > 0L); //  .length tells file size. If > 0, file has some data
     }
 
     /**
@@ -37,7 +37,7 @@ public class Model {
             try {
                 ObjectInputStream fileReader = new ObjectInputStream(new FileInputStream(binaryFile));
                 // Read into temp array
-                OceanBoards[] tempArray = (OceanBoards[]) fileReader.readObject();
+                Item[] tempArray = (Item[]) fileReader.readObject();
                 allItems.addAll(tempArray);
                 fileReader.close();
             }

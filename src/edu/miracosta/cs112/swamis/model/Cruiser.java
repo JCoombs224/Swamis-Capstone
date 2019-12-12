@@ -1,4 +1,4 @@
-package edu.miracosta.cs112.swamis;
+package edu.miracosta.cs112.swamis.model;
 
 import java.io.Serializable;
 import java.util.Objects;

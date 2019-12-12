@@ -1,4 +1,6 @@
 package edu.miracosta.cs112.swamis.model;
 
-public abstract class Item {
+import java.io.Serializable;
+
+public abstract class Item implements Serializable {
 }

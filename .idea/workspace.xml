@@ -3,17 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c544a859-575e-4e67-8186-f85f6eb201ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/model/Model.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/view/AddBodyBoardScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/view/AddBodyBoardScene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/view/AddSurfBoardScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/view/AddSurfBoardScene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/view/ChooseClothingScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/view/ChooseClothingScene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/view/MainScene$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/view/MainScene$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/view/MainScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Capstone Project/edu/miracosta/cs112/swamis/view/MainScene.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/BodyBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/BodyBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/SurfBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/SurfBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/AddBodyBoardScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/AddBodyBoardScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/AddSurfBoardScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/AddSurfBoardScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/MainScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/MainScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Cruiser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Cruiser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/SkateBoards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/SkateBoards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Trick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Trick.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,22 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/AddTopScene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="866">
-              <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="82" column="56" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
+            <state relative-caret-position="-238">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,94 +35,107 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/AddBottomsScene.java">
+        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/AddAccessoryScene.java">
+        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Cruiser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Accessory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Bottoms.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Top.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="83" column="65" selection-start-line="83" selection-start-column="65" selection-end-line="83" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Clothing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/ChooseClothingScene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/SurfBoard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+              <folding>
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1220#1221#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+                <element signature="e#1292#1293#0" expanded="true" />
+                <element signature="e#1322#1323#0" expanded="true" />
+                <element signature="e#1931#1932#0" expanded="true" />
+                <element signature="e#2030#2031#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Trick.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/SkateBoards.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/OceanBoards.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Comparable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+              <folding>
+                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1284#1285#0" expanded="true" />
+                <element signature="e#1342#1343#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/MainScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="51">
               <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
             </state>
           </provider>
@@ -172,7 +171,6 @@
         <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Top.java" />
         <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/ViewNavigator.java" />
         <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/View.java" />
-        <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Item.java" />
         <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/OceanBoards.java" />
         <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Clothing.java" />
         <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/ChooseClothingScene.java" />
@@ -180,12 +178,17 @@
         <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/BodyBoard.java" />
         <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/AddBodyBoardScene.java" />
         <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/AddSurfBoardScene.java" />
-        <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Model.java" />
         <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/MainScene.java" />
+        <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Model.java" />
+        <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Item.java" />
+        <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Cruiser.java" />
+        <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Trick.java" />
+        <option value="$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/SkateBoards.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -194,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,35 +236,11 @@
               <item name="swamis" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="edu.miracosta.cs112.swamis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edu.miracosta.cs112.swamis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.miracosta.cs112.swamis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edu.miracosta.cs112.swamis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="swamis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.miracosta.cs112.swamis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edu.miracosta.cs112.swamis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="swamis" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.miracosta.cs112.swamis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edu.miracosta.cs112.swamis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="swamis" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -322,13 +300,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16814000" />
+    <option name="totallyTimeSpent" value="18197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32777777" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1652452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -337,7 +315,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32268724" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31709957" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,7 +394,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/AddTopScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="866">
+        <state relative-caret-position="1088">
           <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -426,7 +404,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/AddBottomsScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="408">
           <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -444,13 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Bottoms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -461,16 +432,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/OceanBoards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/ChooseClothingScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
+        <state relative-caret-position="578">
           <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -510,6 +474,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/ViewNavigator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/MainScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1342#1343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Cruiser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Trick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/SkateBoards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/OceanBoards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/SurfBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -534,44 +591,6 @@
             <element signature="e#1931#1932#0" expanded="true" />
             <element signature="e#2030#2031#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/ViewNavigator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/model/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="82" column="56" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/miracosta/cs112/swamis/view/MainScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
